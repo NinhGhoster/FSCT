@@ -29,6 +29,7 @@ cd PATH_TO_FSCT-MAIN_DIRECTORY
 conda create --name YOUR_ENVIRONMENT_NAME_HERE python==3.9
 conda activate YOUR_ENVIRONMENT_NAME_HERE
 conda install pip
+conda install -c conda-forge hdbscan==0.8.28
 pip install -r requirements.txt
 ```
 
